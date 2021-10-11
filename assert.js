@@ -4,6 +4,7 @@
 
 var assert = require('assert');
 var Stream = require('stream').Stream;
+var Buffer = require('buffer').Buffer;
 var util = require('util');
 
 

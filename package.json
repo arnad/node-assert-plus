@@ -19,5 +19,8 @@
   },
   "engines": {
     "node": ">=0.8"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3"
   }
 }
