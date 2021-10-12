@@ -1,7 +1,2 @@
-Makefile
-deps
-tools
-tests
-.gitmodules
 .npmignore
 CONTRIBUTING.md
