@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018, Joyent, Inc. and assert-plus authors
+ * Copyright (c) 2018, Joyent, Inc. and assert-plus-plus authors
  */
 
 var assert = require('assert');
