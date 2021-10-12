@@ -1,4 +1,4 @@
-# assert-plus
+# assert-plus-plus
 
 This library is a thin wrapper over the Node built-in `assert` module,
 providing two main enhancements:
@@ -10,7 +10,7 @@ providing two main enhancements:
    'myArg')`.  As a simple example:
 
 ```javascript
-var assert = require('assert-plus');
+var assert = require('assert-plus-plus');
 
 function fooAccount(options, callback) {
     assert.object(options, 'options');
@@ -69,8 +69,8 @@ Lastly, you can opt-out of assertion checking altogether by setting the
 environment variable `NODE_NDEBUG=1`.  This is pseudo-useful if you have
 lots of assertions, and don't want to pay `typeof ()` taxes to v8 in
 production.  Be advised:  The standard functions re-exported from `assert` are
-also disabled in assert-plus if NDEBUG is specified.  Using them directly from
-the `assert` module avoids this behavior.
+also disabled in assert-plus-plus if NDEBUG is specified.  Using them directly
+from the `assert` module avoids this behavior.
 
 The complete list of APIs is:
 
@@ -137,13 +137,13 @@ The complete list of APIs is:
 
 ## Installation
 
-    npm install assert-plus
+    npm install assert-plus-plus
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2018, Joyent, Inc. and assert-plus authors
+Copyright (c) 2018, Joyent, Inc. and assert-plus-plus authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
