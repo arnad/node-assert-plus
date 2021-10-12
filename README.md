@@ -1,5 +1,7 @@
 # assert-plus-plus
 
+A fork of `assert-plus` - https://www.npmjs.com/package/assert-plus
+
 This library is a thin wrapper over the Node built-in `assert` module,
 providing two main enhancements:
 
@@ -24,8 +26,6 @@ function fooAccount(options, callback) {
     callback(null, {});
 }
 ```
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit changes.
 
 ## API
 
