@@ -2,7 +2,7 @@
   "author": "arnadv",
   "name": "assert-plus-plus",
   "description": "Fork of assert-plus, available in browser: \"Extra assertions on top of node's assert module\"",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "main": "./assert.js",
   "optionalDependencies": {},
